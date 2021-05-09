@@ -1,3 +1,5 @@
+package creatures;
+
 public class SeaCreature {
     public void method1(){
         System.out.println("creature 1");

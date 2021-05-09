@@ -1,3 +1,5 @@
+import creatures.SeaCreature;
+
 import java.util.ArrayList;
 import java.util.List;
 
