@@ -8,7 +8,7 @@ import java.util.List;
 
 public class SeaCreatureRunner {
     public static void main(String[] args) {
-        SeaCreature[] elements = {
+        SeaCreature[] creatures = {
                 new Squid(),
                 new Whale(),
                 new SeaCreature(),
@@ -16,10 +16,10 @@ public class SeaCreatureRunner {
         };
 
         List<String> list = new ArrayList<>();
-        for (SeaCreature element : elements) {
-            System.out.println(element);
-            element.method1();
-            element.method2();
+        for (SeaCreature creature : creatures) {
+            System.out.println(creature);
+            creature.method1();
+            creature.method2();
             System.out.println();
         }
     }
